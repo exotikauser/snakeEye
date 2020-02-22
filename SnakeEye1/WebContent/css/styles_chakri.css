@@ -1,0 +1,69 @@
+.divLeft {
+    width: 10%;
+    display: block;
+    float: left;
+    margin-right: 1%;
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+}
+.divRight {
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 1%;
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+}
+.divLast {
+    width: 20%;
+    display: block;
+    float: left;
+    margin-right: 1%;
+    border: 1px solid #fcb100;
+    border-radius:5px;
+}
+.divLast1 {
+    width: 25%;
+    display: block;
+    float: left;
+    padding: 10px;
+    height: 100%;
+    display: block;
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+	.table
+	{
+		font-size:10px;
+	}
+	
+	
+.joker
+{
+	display:inline;
+	height:100%;
+	width:100%;
+	padding:10px;
+}
+.bs-example {
+background-color:black;
+}
+.text_timer {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    position: relative;
+}

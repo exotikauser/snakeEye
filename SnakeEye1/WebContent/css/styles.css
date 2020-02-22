@@ -1,0 +1,66 @@
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+body
+{
+    background: black;
+}
+header
+{
+height:5%;
+background-color:black;
+}
+.firstCol
+{
+background-color:green;
+}
+.secondCol
+{
+background-color:yellow;
+}
+.thirdCol
+{
+background-color:orange;
+}
+.fourthCol
+{
+background-color:maroon;
+}
+footer
+{
+height:5%;
+background-color:black;
+}
+.divLeft {
+    width: 10%;
+    display:block;
+    float: left;
+    margin-right: 1%;
+}
+.divRight {
+    width: 50%;
+    display:block;
+    float: left;
+    margin-right: 1%;
+}
+.divLast {
+    width: 25%;
+    display:block;
+    float: left;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+	.table
+	{
+		font-size:10px;
+	}

@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles_chakri.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style type="text/css">
+        .nicescroll-cursors {
+            position: relative;
+            top: 0px;
+            float: right;
+            width: 10px;
+            height: 143px;
+            background-color: rgb(229, 177, 11);
+            border: transparent;
+            background-clip: padding-box;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--=============================================
+                    Menu part start
+    ===========================================   -->
+    <nav class="navbar navbar-expand-md menu_head">
+        <div class="container p-md-0">
+            <a class="navbar-brand" href="index.html"><img src="images/menu_logo.png" alt="menu_logo" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse main_menu" id="navbarNav">
+                <ul class="navbar-nav" style="width:100%;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <!--<a href="sign_up.html">Singup</a>-->
+                <div class="about_menu" style="width:100%;">
+                    <h4 style="text-align:end;">Admin: Ravi Begari</h4>
+                </div>
+                <a class="active" href="#">Logout</a>
+            </div>
+        </div>
+    </nav>
+    <!--=============================================
+                    Menu part end
+    ==============================================-->
+    <!--=============================================
+                    Login banner part Start
+    ==============================================-->
+    <section id="about_banner" style="padding:110px 0 0 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="about_menu">
+                        <h4 style="font-size:medium;">Welcome to Ravi Begari</h4>
+                        <div class="bread">
+                            <a href="index.html">Home</a><span>&#62;</span><a class="active" href="#">Login-Admin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================================
+                    Login banner part end
+    ==============================================-->
+    <section id="tounament_part" style="padding:5px;">
+        <div class="container">
+            <div class="row">
+                <span class="divRight">
+                    <div style="height:100%">
+                        <div id="container" style="margin:10px;display:inline-block;">
+                            <video autoplay="true" style="width:100%;height:100%;" id="videoElement"></video>
+                        </div>
+
+                    </div>
+                </span>
+                <span class="divLast" style="width:15%;">
+                    <div style="height:100%;">
+                        <img alt="" class="joker" src="images/joker.jpg">
+                    </div>
+                </span>
+                <span class="divLast" style="width:15%;">
+
+                    <div class="panel panel-success" style="margin-top:20px;padding:10px;">
+                        <div class="panel-heading" style="color:whitesmoke;">Select Joker</div>
+                        <div class="panel-body" style="height:25px; width:150px;">
+                            <select name="cars" class="form-control">
+                                <option value="volvo">Card1</option>
+                                <option value="saab">Card2</option>
+                                <option value="fiat">Card3</option>
+                                <option value="audi">Card4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="panel panel-success" style="margin-top:20px;padding:10px;">
+                        <div class="panel-heading" style="color:whitesmoke;">Select Game Type</div>
+                        <div class="panel-body" style="height:50px;">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" style="color:whitesmoke;height:25px;" type="button" id="menu1" data-toggle="dropdown">
+                                    Game Type
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Game1</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Game1</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Game1</a></li>
+                                </ul>
+
+                                <button type="button" class="btn btn-warning" style="width:150px; height:40px;margin-top:20px; background-color:whitesmoke;">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="divLast1">
+                    <h5 style="color:darkgoldenrod;">Players - Games Type</h5>
+                    <div class="tun_scroll">
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5 style="color:darkgoldenrod;font-weight:600;">Player Name</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5 style="color:darkgoldenrod;font-weight:600;">Game Type</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row scl_pad">
+                            <div class="col-lg-6 col-6">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>John</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5>Game Type -A</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="divLast1" style="width:55%; margin-top:20px;">
+                    <h5 style="color:darkgoldenrod;">Last 15 Games:</h5>
+                    <div class="tun_scroll">
+                        <div class="row scl_pad">
+                            <div class="col-lg-3 col-3">
+                                <div class="toun_scroll_name tun_border">
+                                    <h5 style="color:darkgoldenrod; font-weight:600;">Game ID</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-3 text-center">
+                                <div class="toun_scroll_name tun_border">
+                                    <p style="color:darkgoldenrod; font-weight:600;">Joker</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-3 text-right">
+                                <div class="toun_scroll_name tun_border">
+                                    <p style="color:darkgoldenrod; font-weight:600;">Result</pstyle="color:darkgoldenrod;>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-3 text-right">
+                                <div class="toun_scroll_name tun_border">
+                                    <p style="color:darkgoldenrod; font-weight:600;">Win/Loss</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="foot_bot text-center">
+            <p>&copy; 2020. All rights reserved by Designer</p>
+            <div class="effect">
+                <img src="images/shape.png" alt="shape">
+            </div>
+        </div>
+    </section>
+    <!--=============================================
+                    Footer part end
+    ==============================================-->
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var video = document.querySelector("#videoElement");
+
+        if (navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    video.srcObject = stream;
+                })
+                .catch(function (err0r) {
+                    console.log("Something went wrong!");
+                });
+        }
+
+    </script>
+</body>
+
+</html>
